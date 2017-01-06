@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>卢拉鲁拉勒</title>
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+<div class="sliderContainer">
+	<ul class="clearfix">
+		<li class="sliderLi"><img src="./images/11.jpg" alt=""></li>
+		<li class="sliderLi"><img src="./images/11.jpg" alt=""></li>
+		<li class="sliderLi"><img src="./images/11.jpg" alt=""></li>
+	</ul>
+	<div class="sliderIcon">
+		<span class="active"></span>
+		<span></span>
+		<span></span>
+	</div>
+</div>
+
+<div class="personalInt">
+	<div class="header">
+		
+	</div>
+	<div class="bodys">
+		<div class="bleft">
+			<span>个人情况</span>
+			
+		</div>
+		<div class="bleft">
+			<span>联系方式</span>
+		</div>
+		<div class="bleft">
+			<span>112233</span>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script type="text/javascript">
+	$(function(){
+		new sliderWidget({obj:$(".sliderContainer ul")});
+	})
+</script>
+</body>
+</html>
